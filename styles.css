@@ -1042,3 +1042,67 @@ to me
     padding-top: 160px;
   }
 }
+@media (max-width: 768px) {
+  .site-header {
+    padding: 10px 14px;
+  }
+
+  .nav-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    align-items: start;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .brand-logo {
+    width: 54px;
+    height: 54px;
+    border-radius: 14px;
+    flex-shrink: 0;
+  }
+
+  .brand-name {
+    font-size: 0.95rem;
+    line-height: 1.05;
+  }
+
+  .brand-tag {
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+
+  .nav-links a:not(.btn) {
+    display: none;
+  }
+
+  .nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+  }
+
+  .nav-links .btn,
+  .nav-links .btn-small {
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 14px 18px;
+    font-size: 1rem;
+  }
+
+  .hero {
+    padding-top: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .brand-name {
+    max-width: 120px;
+  }
+}
