@@ -829,3 +829,26 @@ a {
   transform: translateY(-2px) scale(1.05);
   box-shadow: 0 10px 30px rgba(239, 68, 68, 0.35);
 }
+.hero-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+}
+
+.hero-card:hover {
+  transform: rotateY(8deg) rotateX(6deg) scale(1.03);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+}
+.hero-panel-glow {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255,120,50,0.4), transparent 70%);
+  filter: blur(60px);
+  z-index: 0;
+  animation: floatGlow 6s ease-in-out infinite;
+}
+
+@keyframes floatGlow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
