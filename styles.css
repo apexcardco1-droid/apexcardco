@@ -168,11 +168,10 @@ a {
 }
 
 .hero h1 {
-  margin: 0;
-  font-size: clamp(2.7rem, 6vw, 5rem);
-  line-height: 0.98;
-  letter-spacing: -0.04em;
-  max-width: 760px;
+  font-size: 3.5rem;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  text-shadow: 0 0 30px rgba(243,166,59,0.18);
 }
 
 .hero-text {
