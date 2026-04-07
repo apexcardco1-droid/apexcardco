@@ -266,11 +266,8 @@ a {
 
 .hero-image {
   width: 100%;
-  max-height: 540px;
+  max-height: 600px;
   object-fit: contain;
-  border-radius: 18px;
-  display: block;
-  margin-bottom: 14px;
 }
 
 .stat-box {
