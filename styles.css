@@ -1178,3 +1178,7 @@ to me
 .btn-live {
   animation: pulseLive 2.5s infinite;
 }
+.instagram-shell {
+  margin-top: 40px;
+  padding: 20px 0;
+}
